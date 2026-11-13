@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="km">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#fff0f6">
+  <meta name="description" content="A special birthday surprise made with love for El Samnang.">
+  <title>For My Love El Samnang ♡ | A Birthday Surprise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&family=Kantumruy+Pro:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <audio id="bgMusic" src="music.mp3" loop preload="none"></audio>
+  <div class="ambient" aria-hidden="true">
+    <span class="orb orb-one"></span><span class="orb orb-two"></span><span class="orb orb-three"></span>
+  </div>
+  <div id="petalLayer" class="petal-layer" aria-hidden="true"></div>
+
+  <main>
+    <!-- INTRO -->
+    <section id="intro" class="intro-screen">
+      <div class="intro-sparkle">✦　♡　✦</div>
+      <div class="envelope-wrap">
+        <div class="envelope-glow"></div>
+        <div class="envelope" aria-hidden="true">
+          <div class="envelope-back"></div>
+          <div class="letter-peek">For my princess ♡</div>
+          <div class="envelope-front"></div>
+          <div class="envelope-flap"></div>
+          <div class="seal">♡</div>
+        </div>
+      </div>
+      <p class="eyebrow">A LITTLE SURPRISE FOR SOMEONE SPECIAL</p>
+      <h1 class="intro-title">Hello, <em>My Princess</em></h1>
+      <p class="intro-copy">ណាមានអ្វីមួយចង់បង្ហាញអូនសម្លាញ់...<br>Are you ready for your little surprise?</p>
+      <button id="openGift" class="button button-primary">Open My Gift <span>♡</span></button>
+      <p class="tiny-note">Made with love, just for you</p>
+    </section>
+
+    <!-- MAIN EXPERIENCE -->
+    <div id="experience" class="hidden">
+      <header class="topbar">
+        <a class="brand" href="#home">♡ <span>For Samnang</span></a>
+        <nav aria-label="Main navigation">
+          <a href="#home">Home</a><a href="#memories">Memories</a><a href="#letter">My Letter</a><a
+            href="#wish">Wish</a>
+        </nav>
+        <button id="musicToggle" class="music-toggle" aria-label="Toggle music">♫ <span>Music On</span></button>
+      </header>
+
+      <section id="home" class="hero section-shell">
+        <div class="hero-copy">
+          <p class="eyebrow">NOVEMBER 17 · YOUR SPECIAL DAY</p>
+          <h1>Happy Birthday,<br><em>El Samnang</em><span class="heart-dot">♡</span></h1>
+          <p class="hero-lead">To the girl who makes ordinary days feel magical.</p>
+          <p class="khmer-lead">រីករាយថ្ងៃកំណើត អូនសម្លាញ់របស់ណា។ សូមឱ្យថ្ងៃនេះពោរពេញដោយស្នាមញញឹម និងក្ដីស្រឡាញ់។</p>
+          <a class="button button-primary" href="#letter">Read My Little Letter <span>♡</span></a>
+        </div>
+        <div class="hero-art" aria-label="Romantic birthday cake illustration">
+          <div class="halo"></div>
+          <div class="star star-a">✦</div>
+          <div class="star star-b">✧</div>
+          <div class="balloon balloon-a">♡</div>
+          <div class="balloon balloon-b">♡</div>
+          <div class="cake-plate"></div>
+          <div class="cake">
+            <div class="cake-top"><i></i><i></i><i></i><i></i></div>
+            <div class="cake-body"><span class="icing">♡　♡　♡</span></div>
+            <div class="cake-base"></div>
+            <div class="candle"><span class="flame"></span></div>
+          </div>
+          <div class="cake-caption">A cake full of wishes ✨</div>
+        </div>
+        <div class="scroll-hint">SCROLL TO EXPLORE <span>↓</span></div>
+      </section>
+
+      <section class="countdown-section section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">COUNTING DOWN TO YOUR DAY</p>
+          <h2>Every moment is <em>worth celebrating</em></h2>
+        </div>
+        <div id="countdown" class="countdown">
+          <div><strong id="days">00</strong><span>Days</span></div>
+          <b>:</b>
+          <div><strong id="hours">00</strong><span>Hours</span></div>
+          <b>:</b>
+          <div><strong id="minutes">00</strong><span>Minutes</span></div>
+          <b>:</b>
+          <div><strong id="seconds">00</strong><span>Seconds</span></div>
+        </div>
+        <p id="countdownMessage" class="countdown-message">Something beautiful is waiting for you ♡</p>
+      </section>
+
+
+      <section id="memories" class="memories-section section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">LITTLE MOMENTS, BIG FEELINGS</p>
+          <h2>A few pieces of <em>our fairytale</em></h2>
+          <p class="section-description">
+            រូបភាពតូចៗ តែមានអត្ថន័យធំធេង។
+            Every picture holds a beautiful memory of us. ♡
+          </p>
+        </div>
+
+        <div class="memory-grid">
+
+          <!-- PHOTO 1 -->
+          <article class="memory-card memory-one">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/1.jpg" alt="Our sweetest moments">
+              <span class="photo-number">01</span>
+            </div>
+            <p class="memory-label">01 · A little magic</p>
+            <h3>Our sweetest moments</h3>
+          </article>
+
+          <!-- PHOTO 2 -->
+          <article class="memory-card memory-two">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/5.png" alt="You make life bloom">
+              <span class="photo-number">02</span>
+            </div>
+            <p class="memory-label">02 · Just because</p>
+            <h3>You make life bloom</h3>
+          </article>
+
+          <!-- PHOTO 3 -->
+          <article class="memory-card memory-three">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/4.png" alt="Every thought, you">
+              <span class="photo-number">03</span>
+            </div>
+            <p class="memory-label">03 · From my heart</p>
+            <h3>Every thought, you</h3>
+          </article>
+          <!-- 4 -->
+          <article class="memory-card memory-three">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/8.png" alt="Every thought, you">
+              <span class="photo-number">04</span>
+            </div>
+            <p class="memory-label">04 · You Are My Happiness</p>
+            <h3>ស្នាមញញឹមរបស់អូន គឺជាសុភមង្គលដ៏មានតំម្លៃបំផុតរបស់បង</h3>
+          </article>
+          <!-- 5 -->
+          <article class="memory-card memory-three">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/6.png" alt="Every thought, you">
+              <span class="photo-number">05</span>
+            </div>
+            <p class="memory-label">05 · My Favorite Person</p>
+            <h3>អូនជាមនុស្សតែម្នាក់ដែលបងចង់នៅក្បែរជានិច្ច និងរហូតណា៎</h3>
+          </article>
+          <!-- 6 -->
+          <article class="memory-card memory-three">
+            <div class="memory-photo">
+              <img src="/El_Samnang_Birthday_Website/image/7.png" alt="Every thought, you">
+              <span class="photo-number">06</span>
+            </div>
+            <p class="memory-label">06 · Forever My Love</p>
+            <h3>បងមិនសន្យាថាអ្វីៗនឹងល្អឥតខ្ចោះទេ តែបងសន្យាថានឹងខំថែរក្សាអូន យើងទាំងពីនាក់និងបន្តទៅមុខរហូតណា៎</h3>
+          </article>
+
+        </div>
+      </section>
+
+
+      <section id="letter" class="letter-section section-shell">
+        <div class="letter-decoration">♡</div>
+        <div class="letter-paper">
+          <p class="eyebrow">A LETTER FROM ណា</p>
+          <h2>To my dearest <em>Samnang</em>,</h2>
+          <div id="letterText" class="letter-text">
+            អូនសម្លាញ់ El Samnang ជាទីស្រឡាញ់របស់ណា,
+            <br><br>
+            ថ្ងៃនេះជាថ្ងៃពិសេសរបស់អូន ហើយណាចង់ឱ្យអូនដឹងថា អូនមានតម្លៃប៉ុណ្ណាសម្រាប់ណា។ អរគុណដែលបានចូលមកក្នុងជីវិតណា
+            និងធ្វើឱ្យថ្ងៃធម្មតាៗក្លាយជាថ្ងៃដែលមានន័យ។
+            <br><br>
+            ណាមិនអាចសន្យាថារាល់ថ្ងៃនឹងល្អឥតខ្ចោះទេ ប៉ុន្តែណាសន្យាថានឹងព្យាយាមស្តាប់ យល់ចិត្ត យកចិត្តទុកដាក់
+            និងធ្វើឱ្យអូនមានអារម្មណ៍ថាត្រូវបានស្រឡាញ់។
+            <br><br>
+            សូមឱ្យឆ្នាំថ្មីនៃជីវិតអូន នាំមកនូវសុខភាពល្អ ក្ដីសុខ ភាពជោគជ័យ និងក្ដីស្រមៃទាំងអស់ដែលអូនប្រាថ្នា។
+            សូមឱ្យស្នាមញញឹមនៅលើមុខអូន មិនបាត់ទៅណាឡើយ។
+            <br><br>
+            Happy Birthday, my princess. I’m so lucky to have you.
+            <br><br>
+            With all my love,<br><strong>ណា ♡</strong>
+          </div>
+          <div class="letter-sign">Forever cheering for you ♡</div>
+        </div>
+      </section>
+
+      <section class="reasons-section section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">JUST A FEW REASONS</p>
+          <h2>Why you are <em>so special</em></h2>
+        </div>
+        <div class="reason-list">
+          <div class="reason"><span>♡</span>
+            <p>Your smile makes my day brighter.</p>
+          </div>
+          <div class="reason"><span>✿</span>
+            <p>Your heart makes the world feel kinder.</p>
+          </div>
+          <div class="reason"><span>✧</span>
+            <p>Being yourself is your most beautiful thing.</p>
+          </div>
+          <div class="reason"><span>∞</span>
+            <p>There are a million little reasons, and I’m still discovering them.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="wish" class="wish-section section-shell">
+        <div class="wish-card">
+          <div class="wish-stars">✦　✧　♡　✧　✦</div>
+          <p class="eyebrow">CLOSE YOUR EYES & MAKE A WISH</p>
+          <h2>Make a wish, <em>my princess</em></h2>
+          <div class="wish-cake" aria-hidden="true">🎂</div>
+          <p id="wishText">May every beautiful thing find its way to you.</p>
+          <button id="wishButton" class="button button-light">I Made a Wish ✨</button>
+          <div id="wishResult" class="wish-result" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-heart">♡</div>
+        <h2>Happy Birthday, <em>El Samnang</em></h2>
+        <p>From ណា, with love — today, tomorrow, and always.</p>
+        <p class="footer-small">Made especially for My Princess · 17 November 2026</p>
+        <button id="backToTop" class="back-top">Back to the beginning ↑</button>
+      </footer>
+    </div>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+
+</html>
